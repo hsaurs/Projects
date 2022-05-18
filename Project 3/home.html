@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor=#CCCCFF>
+
+        <center>
+
+        <h1> Employee Future Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> 최종 학력을 입력하세요('Bachelors' 'Masters' 'PHD' 중 택 1) :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            입사년도를 입력하세요(2012 ~ 2018 중 택 1) :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            거주지를 입력하세요('Bangalore' 'Pune' 'New Delhi' 중 택 1) :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+            Payment Tier을 입력하세요(1,2,3 중 택 1) : <input type="text", name='d', placeholder="enter 4"> <br><br>
+            나이를 입력하세요(24 ~ 41 중 택 1) : <input type="text", name='e', placeholder="enter 5"> <br><br>
+            성별을 입력하세요('Male' 'Female' 중 택 1) : <input type="text", name='f', placeholder="enter 6"> <br><br>
+            프로젝트 경력 유무를 입력하세요('No' 'Yes 중 택 1) : <input type="text", name='g', placeholder="enter 7"> <br><br>
+            업계 경력을 입력하세요(0~7 중 택 1) : <input type="text", name='h', placeholder="enter 8"> <br><br><br></b>
+            <input type="submit" , value='predict' >
+        </form>
+
+        <img src="job.jpg" alt="job">
+        
+    </center>
+
+    </body>
+</html>
